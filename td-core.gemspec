@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Common modules for all the TD gems.'
   spec.homepage      = "https://github.com/talosdigital/TDCoreGem"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"
